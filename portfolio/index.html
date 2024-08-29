@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Devaruba G</h1>
+        <p>Web Developer | Student | Programmer</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/deva-ruba-33347b265" target="_blank" class="white-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/devaruba" target="_blank" class="white-icon">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.codechef.com/users/devaruba" target="_blank">
+                CodeChef
+            </a>
+            <a href="https://leetcode.com/devaruba" target="_blank">
+                LeetCode
+            </a>
+            <a href="https://www.stopstalk.com/users/devaruba" target="_blank">
+                Stopstalk
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about" onclick="showSection('about')">About Me</a></li>
+            <li><a href="#education" onclick="showSection('education')">Education</a></li>
+            <li><a href="#certifications" onclick="showSection('certifications')">Certifications</a></li>
+            <li><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+            <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+            <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="image-container">
+                <img src="deva2.jpeg" alt="Devaruba G" />
+            </div>
+            <div>
+                <p>Hello! I'm Devaruba G, a dedicated student currently pursuing my studies at Kalaignar Karunanidhi Institute of Technology. I have a strong passion for learning and exploring various fields, with a particular interest in technology and problem-solving. My academic journey is centered on acquiring new knowledge, developing skills, and preparing for future challenges.</p>
+                <div class="resume-link">
+                    <a href="devaruba.pdf" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="hidden">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>B.Tech-CSBS</h3>
+            <p>Kalaignar Karunanidhi Institute of Technology, Tamil Nadu</p>
+            <p>2022-2026</p>
+        </div>
+        <div class="education">
+            <h3>Higher Secondary Schooling</h3>
+            <p>Amala Matriculation Higher Secondary School, Tamil Nadu</p>
+            <p>2019-2021</p>
+        </div>
+        <div class="education">
+            <h3>Secondary Schooling</h3>
+            <p>Amala Matriculation Higher Secondary School, Tamil Nadu</p>
+            <p>2018-2019</p>
+        </div>
+    </section>
+
+    <section id="certifications" class="hidden">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <h3>Infosys Springboard</h3>
+            <p>Python Foundation Certificate-Infosys springboard</p>
+            <p>TechA Salesforce Certification-Infosys Springboard</p>
+            <p>Agile Scrum Certification-Infosys Springboard</p>
+            <p>TechA Web Development using HTML and CSS Foundation Certification-Infosys Springboard</p>
+            <p>TechA Responsive Web Designing (HTML,CSS & Java Script) Foundation Certification-Infosys Springboard</p>
+        </div>
+        <div class="certifications">
+            <h3>Nptel</h3>
+            <p>Problem Solving through Programming in C-NPTEL</p>
+            <p>Database Management System-NPTEL</p>
+        </div>
+        <div class="certifications">
+            <h3>Altair</h3>
+            <p>Knowledge Studio Basics Certification-Altair</p>
+        </div>
+        <div class="certifications">
+            <h3>Coursera</h3>
+            <p>Using SQL String Functions to Clean Data</p>
+            <p>Preparing for your professional Cloud Architect Journey</p>
+        </div>
+        <div class="certifications">
+            <h3>Inplant training</h3>
+            <p>I completed the overview concepts of Web Application Development from February 6, 2024, to February 16, 2024, at BrainerySpot Technology</p>
+        </div>
+        <div class="certifications">
+            <h3>Internship</h3>
+            <p>I completed the basic concepts of Full Stack Development from July 9, 2024, to July 23, 2024, at Ether Infotech</p>
+        </div>
+    </section>
+
+    <section id="skills" class="hidden">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skill-item">
+                <h3>Web Development</h3>
+                <div class="skill-content">
+                    <img src="webdevelopment.jpeg" alt="Web Development" class="skill-image" />
+                    <div class="skill-description">
+                        <p>Proficient in HTML, CSS, and JavaScript with experience in building responsive, user-friendly websites. Strong understanding of front-end frameworks and tools to create dynamic web applications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Problem-Solving</h3>
+                <div class="skill-content">
+                    <img src="problemsolving.jpeg" alt="Problem Solving" class="skill-image" />
+                    <div class="skill-description">
+                        <p>I excel at breaking down complex problems and developing efficient solutions using Python, C, and C++. My approach involves analyzing problems from multiple angles and applying logical reasoning to find effective and innovative solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Programming Languages</h3>
+                <div class="skill-content">
+                    <img src="programminglanguage.jpeg" alt="Programming Languages" class="skill-image" />
+                    <div class="skill-description">
+                        <p>&bull;&nbsp;Python</p>
+                        <p>&bull;&nbsp;C</p>
+                        <p>&bull;&nbsp;C++</p>
+                        <p>&bull;&nbsp;HTML</p>
+                        <p>&bull;&nbsp;CSS</p>
+                        <p>&bull;&nbsp;JavaScript</p>
+                        <p>&bull;&nbsp;Java</p>
+                        <p>&bull;&nbsp;Data Structures</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="hidden">
+        <h2>Projects</h2>
+        <div class="projects">
+            <h3>Reactive Resume</h3>
+            <div class="project-details">
+                <img src="photo.png" alt="Reactive Resume" class="project-image"/>
+                <div class="project-description">
+                    <p>
+                        Reactive Resume is a dynamic and interactive resume builder designed to provide users with a customizable and visually appealing resume experience. The project aims to streamline the process of creating and updating resumes by leveraging modern web technologies.
+                    </p>
+                    <a href="https://github.com/DevarubaG/Reactive-resume" target="_blank" class="view-project-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <h3>Portfolio</h3>
+            <div class="project-details">
+                <img src="photo2.jpeg" alt="Portfolio" class="project-image"/>
+                <div class="project-description">
+                    <p>
+                        Explore my portfolio to see a selection of projects I've worked on. From dynamic web applications to interactive websites, each project showcases my skills in web development and problem-solving. I strive to create efficient, user-friendly solutions that meet real-world needs.</p>
+                    <a href="https://github.com/DevarubaG/Portfolio-code" target="_blank" class="view-project-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Contact</h2>
+        <form class="contact-form" id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+            <p id="successMessage" class="success-message hidden">Message sent successfully!</p>
+        </form>
+	<div class="contact-info">
+        <p><i class="fa-solid fa-phone-volume"></i>6385743329</p>
+        <p><i class="fa-solid fa-location-dot"></i>Salem,Tamil Nadu</p>
+        <p><i class="fa-solid fa-envelope"></i>kit26.csbs10@gmail.com</p>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Devaruba G</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
